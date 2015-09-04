@@ -1,5 +1,5 @@
 * {
-	font-family: helvetica;
+	font-family: 'Open Sans', sans-serif;
 }
 
 html {
@@ -14,15 +14,24 @@ body {
 
 .side-nav {
 	height: 100%;
-	width: 100px;
+	width: 115px;
 	left: 0; top: 0;
 	position: fixed;
 	background-color: #2f0001;
 }
 
+/*.side-nav {
+	height: 100%;
+	width: 115px;
+	left: 0; top: 0;
+	position: fixed;
+	background-color: white;
+	border-right: 1px solid black;
+}*/
+
 .logo {
 	position: relative;
-	right: 150%;
+	right: 125%;
 }
 
 ul {
@@ -34,6 +43,20 @@ ul {
 
 li {
 	padding-top: 40px;
-	color: white;
+	font-size: 18px;
+	letter-spacing: 1.5px;
 	font-weight: bold;
 }
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover {
+	color: white;
+}
+
+/*a:hover {
+	color: black;
+}*/
