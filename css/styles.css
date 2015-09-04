@@ -1,0 +1,35 @@
+* {
+	font-family: helvetica;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+.side-nav {
+	height: 100%;
+	width: 100px;
+	left: 0; top: 0;
+	position: fixed;
+	background-color: #2f0001;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 100px;
+	margin-left: 10px;
+}
+
+li {
+	padding-top: 40px;
+	color: white;
+	font-weight: bold;
+}
