@@ -109,3 +109,7 @@ a:hover {
 .right-menu {
 	margin-left: 75%;
 }
+
+.absolute {
+	position: absolute;
+}
