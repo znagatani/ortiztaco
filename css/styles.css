@@ -20,11 +20,15 @@ body {
 	background-color: #2f0001;
 }
 
+.logo {
+	position: relative;
+	right: 150%;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	padding-top: 100px;
 	margin-left: 10px;
 }
 
