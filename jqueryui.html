@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title></title>
+     <link href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <script src="myscript.js"></script>
+    <script>
+    $(document).on('ready', function(){
+        $("#accordion").accordion({collapsible: true});
+    });
+</script>
+</head>
+<body>
+    <div id="mainContent">
+        <h1>Menu</h1>           
+    </div>
+    <div id="accordion">
+        <h3><a href="#">Tacos</a></h3>
+        <div>
+        <p>This is the first sentence.</p>
+        </div>          
+        <h3><a href="#">Heading for second sentence</a></h3>            
+        <div>
+        <p>This is the second sentence.</p>
+        </div>
+        <h3><a href="#">Heading for third sentence</a></h3>
+        <div>
+        <p>This is the third sentence.</p>
+        </div>
+    </div>
+</body>
