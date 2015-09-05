@@ -125,13 +125,13 @@ a:hover {
 	position: absolute;
 } /*to allow positioning next to other divs */
 
-.ob {
+/*.ob {
 	left: 15%;
 }
 
 .pb {
 	right: -25%;
-}
+}*/
 
 
 /*.pb {
@@ -190,9 +190,13 @@ a:hover {
 }
 
 #loc-name {
-	margin-left: 30%;
+	margin-left: 10%;
 }
 
 #menu-item {
 	margin-left: 30%;
+}
+
+.center {
+	text-align: center;
 }
