@@ -212,3 +212,19 @@ a:hover {
 .margin-top {
 	margin-top: 10px;
 }
+
+footer {
+	width: 100%;
+	/*max-width: 1788px;*/
+	height: 75px;
+	margin:0;
+    padding:0;
+    outline:0;
+    overflow: hidden;
+    margin-left: 115px;
+    border-top: 1px solid black;
+}
+
+.text-center {
+	text-align: center;
+}
