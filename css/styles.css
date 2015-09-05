@@ -119,6 +119,13 @@ a:hover {
 } /*to allow positioning next to other divs */
 
 .ob {
+	left: 15%;
+}
+
+.pb {
+	right: -25%;
+}
+
+.relative {
 	position: relative;
-	left: 25%;
 }
