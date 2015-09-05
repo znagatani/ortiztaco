@@ -21,6 +21,7 @@ body {
     padding:0;
     border:0;
     outline:0;
+    overflow-x: hidden;
 }
 
 .nav {
@@ -87,6 +88,7 @@ a:hover {
 
 .container{
 	width: 100%;
+	/*max-width: 1788px;*/
 	min-height: 100%;
 	margin:0;
     padding:0;
