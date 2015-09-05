@@ -92,12 +92,13 @@ a:hover {
     padding:0;
     outline:0;
     overflow: hidden;
+    margin-left: 115px;
 }
 
 #main {
 	 background:
     	url("../images/ortizsmall.svg") 2000px 2000px;
-    background-position: center;
+    background-position:center;
     background-color: #2f0001;
 }
 
@@ -198,5 +199,5 @@ a:hover {
 }
 
 .center {
-	text-align: center;
+	padding-left: 15%;
 }
