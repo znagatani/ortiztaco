@@ -21,7 +21,6 @@ body {
     padding:0;
     border:0;
     outline:0;
-    overflow-x: hidden;
 }
 
 .nav {
@@ -202,4 +201,14 @@ a:hover {
 
 .center {
 	padding-left: 15%;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+.margin-top {
+	margin-top: 10px;
 }
